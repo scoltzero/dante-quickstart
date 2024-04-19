@@ -7,7 +7,11 @@ wget -qO setup_dante.sh https://raw.githubusercontent.com/scoltzero/dante-quicks
 ```
 
 # 赋予脚本执行权限
+```
 chmod +x setup_dante.sh
+```
 
 # 执行脚本
+```
 ./setup_dante.sh
+```
