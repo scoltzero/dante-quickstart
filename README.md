@@ -15,3 +15,4 @@ chmod +x setup_dante.sh
 ```
 ./setup_dante.sh
 ```
+# 默认账户是sockd the default username is sockd
