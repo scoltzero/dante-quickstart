@@ -1,5 +1,7 @@
 # 确认有docker
+```
 docker --version
+```
 
 # 下载脚本
 ```
@@ -15,9 +17,9 @@ chmod +x setup_dante.sh
 ```
 ./setup_dante.sh
 ```
-# 默认账户是sockd the default username is sockd
-
+# 默认账户是sockd。The default username is sockd
+在填入服务器参数时需要注意。
 
 ## Acknowledgements
 
-- **[wernight/dante]**: 对项目贡献了docker库。thanks for docker image.
+- **[[wernight/dante](https://hub.docker.com/r/wernight/dante)]**: 感谢对本项目贡献了docker库。Thanks for docker image.
