@@ -25,5 +25,5 @@ echo -e "$NEW_PASSWORD\n$NEW_PASSWORD" | docker exec -i ${CONTAINER_NAME} passwd
 
 # 输出修改后的第66行和第177行确认更改，并输出创建成功的信息
 echo "Modifications applied to sockd.conf:"
-docker exec ${CONTAINER_NAME} sed -n -e '66p' -e '177p' /etc/sockd.conf
+#docker exec ${CONTAINER_NAME} sed -n -e '66p' -e '177p' /etc/sockd.conf
 echo "Container '${CONTAINER_NAME}' and user setup successfully!"
